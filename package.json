@@ -1,0 +1,28 @@
+{
+  "name": "intro_backend",
+  "version": "1.0.0",
+  "description": "A backend practice tackling core backend principles",
+  "homepage": "https://github.com/MwiniSaviour/intro_backend#readme",
+  "bugs": {
+    "url": "https://github.com/MwiniSaviour/intro_backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MwiniSaviour/intro_backend.git"
+  },
+  "license": "ISC",
+  "author": "Saviour Newton",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.1",
+    "nodemon": "^3.1.14"
+  }
+}
